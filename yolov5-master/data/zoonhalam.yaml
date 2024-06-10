@@ -1,0 +1,27 @@
+names:
+- Chuột lang nước
+- Bò
+- Hươu
+- Voi
+- Hồng hạc
+- Hươu cao cổ
+- Báo đốm
+- Kangaroo
+- Sư tử
+- Vẹt
+- Chim cánh cụt
+- Tê giác
+- Cừu
+- Hổ
+- Rùa
+- Ngựa vằn
+nc: 16
+roboflow:
+  license: Private
+  project: animals_project-nz6sq
+  url: https://app.roboflow.com/animalss-mgqwx/animals_project-nz6sq/1
+  version: 1
+  workspace: animalss-mgqwx
+test: /content/animals_project-1/test/images
+train: /content/animals_project-1/train/images
+val: /content/animals_project-1/valid/images
