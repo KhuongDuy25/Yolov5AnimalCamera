@@ -1,27 +1,24 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: C:\Users\KhuongDuy\Desktop\datasets\ga # dataset root dir
+train: C:\Users\KhuongDuy\Desktop\datasets\ga\images\train2024 # train images (relative to 'path') 19 images
+val: C:\Users\KhuongDuy\Desktop\datasets\ga\images\train2024 # val images (relative to 'path') 19 images
+test: # test images (optional)
+
+# Classes
 names:
-- Chuột lang nước
-- Bò
-- Hươu
-- Voi
-- Hồng hạc
-- Hươu cao cổ
-- Báo đốm
-- Kangaroo
-- Sư tử
-- Vẹt
-- Chim cánh cụt
-- Tê giác
-- Cừu
-- Hổ
-- Rùa
-- Ngựa vằn
-nc: 16
-roboflow:
-  license: Private
-  project: animals_project-nz6sq
-  url: https://app.roboflow.com/animalss-mgqwx/animals_project-nz6sq/1
-  version: 1
-  workspace: animalss-mgqwx
-test: /content/animals_project-1/test/images
-train: /content/animals_project-1/train/images
-val: /content/animals_project-1/valid/images
+  0:  Capybara
+  1:  Cow
+  2:  Deer
+  3:  Elephant
+  4:  Flamingo
+  5:  Giraffe
+  6:  Jaguar
+  7:  Kangaroo
+  8:  Lion
+  9:  Parrot
+  10:  Penguin
+  11:  Rhino
+  12:  Sheep
+  13:  Tiger
+  14:  Turtle
+  15:  Zebra
